@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 생활코딩 html 강의필기</title>
+<meta charset="utf-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0BNM5TYBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C0BNM5TYBV');
+</script>
+
+</head>
+<body>
+  <h2>생활코딩 강의필기</h2>
+      <ol>
+        <li><a href="생활코딩 html 강의필기.html" target:"_blank">생활코딩 html 강의필기</a></li>
+        <li><a href="생활코딩 css 강의필기.html" target:"_blank">생활코딩 css 강의필기</a></li>
+        <li><a href="생활코딩 Javascript 강의필기.html" target:"_blank">생활코딩 Javascript 강의필기</a></li>
+      </ol>
+
+    <h2>생활코딩</h2>
+    <ol>
+      <li><a href="https://www.youtube.com/channel/UCvc8kv-i5fvFTJBFAk6n1SA"target="_blank">생활코딩 유튜브 </a></li>
+      <li><a href="https://opentutorials.org/course/1"target="_blank">생활코딩 오픈튜토리얼 </a></li>
+    </ol>
+
+<br>코드/소스
+<br><strong> html: 웹을 만드는데 사용하는 언어</strong><br>
+<h2 style=margin-top:45px;>생활코딩 web1-5 HTML 코딩과 실습환경 준비</h2>
+에디터: atom (예제) <a href="https://atom.io" target="_blank" title="atom의 다운로드">https://atom.io</a> 에서 설치가능
+<br>
+<u>best html editor 2022</u> 로 검색하면 최근사용하는 에디터 검색가능
+<p></p>
+<b>atom의 사용법</b><br>
+
+file-> open folder-> 파일 web 안으로 들어가서-> select folder 누르기 (폴더를 선택함)
+<br>
+웹폴더의 오른쪽 클릭을 하고 new file(인터넷 파일만들기)<br>
+웹페이지의 확장자는 .html-> 오른쪽 enter the path for the new file에 1.html 이라 입력하면 1이라는 인터넷 홈페이지가 생성됨
+<br>(파일 이름 제외 확장자는 마음대로 바꾸면 안됨 )
+<br>
+크롬에서 1.html열기(같은 컴퓨터 안에 있는 만들어놓은 홈페이지이기 때문에 파일열기로 열 수 있다)
+<br>
+윈도우: ctrl+O <br>
+맥: command+O
+<br>
+ctrl+s 는 저장하기
+<h2 style=margin-top:45px;>생활코딩 web1-6 기본문법 태그</h2>
+<p>웹을 지배하는 문법: 태그</p>태그: 문법을 설명하는것(옷에 붙어있는 택은 옷을 설명한다)<br>열리는태그/ 닫히는태그: 구분하기위해 슬래시를 넣음
+<br>strong, /strong: 사이에 있는거 굵은 글씨로 강조, 중요한 내용이여서 강조해야한다<br>
+b,/b: 사이에 있는거 굵은 글씨로 강조 =strong이랑 동일
+u,/u: 사이에 있는거 밑줄 (underline)<br>
+
+<p><b>추가공부</b><br>
+!--내용-- : 메모<br>
+이렇게하면 에디터에 메모한거여서 저장하고나면 홈페이지에 해당내용이 표시안된다 <br>
+(용원이를 통해 알게된 사실)</p>
+
+
+<h2 style=margin-top:45px;>생활코딩 web1-7 혁명적인 변화</h2>
+<br>홈페이지에서 우클릭, 페이지 소스를 누르면 어떤 코드들로 이루어져있는지 알 수 있다.
+<br>h1~h6태그의 사용: 제목을 나타내는 태그
+<br>해당코드가 어떤 태그인지 모를때 추천하는 검색어
+<br><u>HTML h1 tag</u>
+
+<p>참고로 h1태그는 페이지당 한번만 사용하는것을 원칙으로 함.
+제목 수준을 h1으로 시작했다면 그다음 순서로 h2를 사용하는것을 원칙으로 함.
+h뒤에 숫자가 붙고, 숫자가 커질수록 글씨 크기가 작아짐. 줄바꿈이됨</p>
+<h1>h1태그</h1>
+  <h2>h2태그</h2>
+    <h3>h3태그</h3>
+      <h4>h4태그</h4>
+        <h5>h5태그</h5>
+              <h6>h6태그</h6>
+<h2 style=margin-top:45px;>생활코딩 web1-8 통계에 기반한 학습</h2>
+<p>태그는 검색 가능
+<br><a href="https://www.advancedwebranking.com/" title='자주쓰는 태그' target="_blank">https://www.advancedwebranking.com/</a>
+<br>→자주쓰는 태그가 무엇인지 참고 가능, 방향성 잡는데 도움이 될것!</p>
+
+<h2 style=margin-top:45px;>생활코딩 web1-9 br vs p</h2>
+<br>줄바꿈하는 태그 찾기 br
+<br>추천검색어: html new line tag
+<br> br은 닫히는 태그가 필요 없음
+<br>단락을 쓸때 사용하는 태그1
+<br>추천검색어: html paragraph tag p
+<br>paragraph의 p
+
+<p>p는 단락을 뜻해서 줄바꿈 태그인 br 보다 의미있는 태그이다.
+<br>그러나 여백이 정해져있기 때문에 css의 문법을 사용하여 훨씬 더 정교하게 제어한다.
+<br>css에서 태그와 태그사이의 여백을 나타내는 코드가 있다.
+<br>css는 html과는 완전히 다른 컴퓨터 언어의 문법이 들어오게 약속되어있다. p style="margin-top:40px;"
+
+<br><br>문단사이에 위쪽에 여백을 40픽셀만큼 두고싶다: 앞문단 내용/p,p style="margin-top:40px;"  뒷문단내용
+<br>☆응용: 문단사이에 위쪽과 아래쪽에 여백을 70픽셀만큼 두고싶다:p style=margin-bottom:70px;,style= margin-top:70px;
+<br><br>
+<br>예시
+<p>Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+</p><p style="margin-top:40px;" >HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.
+It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+HTML elements are delineated by tags, written using angle brackets.</p>
+<h2 style=margin-top:45px;>생활코딩 web 1-11. 최후의 문법 속성 & img</h2>
+이미지의 삽입: img
+  <p><br> 이미지 가져오는 홈페이지 추천: unsplash.com
+<br> download free 로 web 폴더안에 저장, rename , source 란에 파일명 입력
+<br><img src="hamster.jpg"width="100%" >
+<br>src:source
+<br>width로 이미지 파일 크기 조정 가능
+<br>width는 100% 처럼 퍼센트나 그냥 450 같이 숫자로도 설정 가능
+<br>img src="" alt=""
+<br>src="",  alt="" :속성(attribute)
+<br>속성간의 위치는 상관없음  alt="" ,src="" 가능
+<br>태그 자체로 정보가 부족한경우 속성을 이용해서 더많은 의미부여 가능</p>
+
+<h2 style=margin-top:45px;>생활코딩 web1-12. 부모자식과 목록</h2>
+<p>부모자식 관계에 해당하는 코드
+<br>목록(list): li
+<br>윈도우에서 컨트롤을 누른채로 마우스로 클릭하면 커서가 여러개 생김.
+<br> 동시작성가능, 작성할 위치에 클릭
+<ul>
+<li>1. HTML</li>
+<li>2. CSS</li>
+<li>3. JavaScript</li>
+</ul>
+<ul>
+  <li>프론트엔드</li>
+  <li>백엔드</li>
+</ul>
+<br> li의 부모태그는 ul,목록끼리 구분이 되게 해준다.
+<br>br로 띄어쓸 수 있으나, ul은 목록끼리 구분되게 만들어진 태그이다. 의미에 맞게 사용하자.
+<br>ul(unordered list)대신에 ol(ordered list)를 사용하면 자동으로 넘버링이 된다.</p>
+
+<p style=margin-bottom:70px;,style= margin-top:70px;>
+  <h4>※추가공부 <br>
+  소연이의 22/05/16 월요일 to do list </h4>
+  오늘 할일
+  <ol>
+    <li>개발블로그 <a href="https://github.com/byeoldarae" target="_blank" title="개발자 다래의 잔디심기" >깃허브</a> 만들기</li><br>
+    <li>생활코딩 html 강의 다 듣기 <br>
+    15/16/17/18/19/20 </li><br>
+    <li>하나은행 방문해서 통장 재발급과 사본 요청하기 <br>
+       (13시 이후 신분증 지참)</li><br>
+    <li>국민취업지원제도 상담일정 조정하기<br>
+       →5/17 오전 11시 </li><br>
+    <li>내일 전주행 버스 예매하기<br>
+       →노트북 도착 여부 확인, 윈도우 설치 여부 확인</li>
+
+        <ul>
+          5/17 예상일정
+          <li>11-12시 상담 방배</li>
+          <li>12-13시 점심</li>
+          <li>13-16시 전주 도착</li>
+          <li>공부좀 하다가 만나서 저녁먹고, 노트북챙겨서 돌아오기</li>
+        </ul><br>
+
+          <li>(가능하면)<a href="https://www.work.go.kr/cyberedu/main.do"target="_blank" title="워크넷">한국고용정보원 사이버진로교육센터 (www.work.go.kr/cyberedu)</a></li>
+      <ul>
+        <li>시선을 사로잡는 서류전형</li>
+        <li>마음을 사로잡는 면접전형</li>
+      </ul>
+       →수강후 수료증 제출 요
+  </ol>
+</p>
+<p>
+<ol><b>
+  <li>ol 안에 ul 넣을 수 있다.</li>
+  <li>보기 편하게 하위항목이라는 의미로 탭키를 써서 정렬해주자.</li>
+  <li>목록의 내용이 1번에 해당된다면 1에 해당하는 내용을 전부 li로 묶어주고, br로 줄바꿈을 해준다.</li>
+  <li>ol 안에 ul이 하위항목으로 있을때  ol의 /li 안쪽에 br을 넣는것과 바깥쪽에 br을 하는것은 띄어쓰기가 다르게된다.
+  <br>그렇기때문에 ol로 감싸진 li뒤에 br을 넣어주자.</li>
+</b></ol>
+</p>
+
+<p>표(table)태그
+<br>시작태그와 끝태그로 구성됨</p>
+<br>tanble, tr, td 3개가 사실상 세트
+<ol>
+<li>table, /table: 표를 만드는 태그, 표 삽입</li>
+<li>th, /th: 표의 제목 (table heading)</li>
+<li>td,/td: 표의 일반셀 (table data)</li>
+<li>table border:표의 테두리 두께</li>
+<li>tr align: 테이블 행(row)의 정렬</li>
+→right/center/left
+</ol>
+<br>
+<br><b><u>Q. 표에 색을 칠하고 싶을때는? background 나중에 공부하기</u></b>
+<p style=margin-top:45px;></p>
+<th>표의 태그와 그 의미</th>
+<table border="1">
+<tr align="center">
+  <td>table</td>
+  <td>표</td>
+</tr>
+
+<tr>
+  <tr align="center">
+  <td>table row</td>
+  <td>도표의 행</td>
+</tr>
+
+<tr>
+  <tr align="center">
+  <td>table data</td>
+  <td>표의 일반셀</td>
+</tr>
+</table>
+
+<h2 style=margin-top:45px;>생활코딩 web1-13. 문서의 구조와 슈퍼스타들</h2>
+<br>title,/title: 본문의 제목이 무엇인지 설명해주는 코드
+<p>
+<b>meta charset="utf-8"란?</b>
+<br>utf-8형식으로 문서를 읽어라
+<br>character: 문자, set: 규칙</p>
+<p><b>추가공부</b>
+<ul>
+<li>meta는 데이터에 대한 데이터로 주로 기계가 읽고 이해하는 정보이다.</li>
+<li>위 태그가 없으면 한글, 특수문자들이 꺠질 수 있다.</li>
+<li>대부분 꼭 넣어야하는 태그라고 명시를 한다.</li>
+</ul>
+인코딩은 웹부라우저, 컴퓨터의 html파일을 웹부라우저에 표시될 수 있게 변환하는 처리작업을 얘기한다.
+</p>
+
+<p>본문 앞에 body,/body라는 태그를 붙여라(사람사이의 약속)
+<br>본문을 설명하는, 바디를 설명하는 태그는 head,/head 태그를 사용하기로 약속
+<br>헤드와 바디를 감싸는 태그: html,/html
+<br>!doctype html: 이 문서는 html 이다 라는 관용적인 표현
+<h2 style=margin-top:45px;>생활코딩 web1-14.HTML 태그의제왕</h2>
+<p>
+<ul>
+<li>anchor: 닻, 정보의 바다에 닻을 내린다는 의미의 a태그: 링크를 의미</li>
+<li>링크걸기 a,/a: 사이에 링크를 걸 부분을 넣고, 링크 걸 홈페이지의 주소를 입력한다.</li>
+</ul>
+<br>html의 공식 설명서: html specification으로 검색
+<br>https://www.w3.org/TR/2011/WD-html5-20110405/
+<br>
+<a href="https://www.w3.org/TR/2011/WD-html5-20110405/">Hypertext Markup Language (HTML)</a>
+<br>a href: anchor hyperlink reference"홈페이지 주소" target="_blank"title="html5 specification", /a 형태로 마무리 하면 됨.
+<br> target="_blank"은 링크를 눌럿을 때 새탭에서 켜지게 하는법
+<br> title="html5 specification" 로 입력하고 하이퍼링크에 마우스를 올려놓으면 html5 specification으로 툴팁이 뜨게 설정됨.</p>
+<p><b>Q. 하이퍼링크 거는동안 Hypertext Markup Language (HTML)</b> 웹사이트에서 왜 Hy.pertext Markup Language 으로 보이는거지?
+<br>answer: 링크를 넣는 a,/a 에는 스타일이 포함되어있기 때문. 점이아니라 밑줄이였음.
+<br>→파란색 밑줄이 그어지는게 링크 태그의 특징
+<br><a href="https://www.w3.org/TR/2011/WD-html5-20110405/"target="_blank"title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for
+<strong>creating <u>web</u>
+pages </strong> and web applications.
+
+<h2 style=margin-top:45px;>생활코딩 web1-15. 웹사이트의 완성</h2>
+html을 여러개 만들어서 링크에 내가 만든 html파일을 걸어주면, 책처럼 페이지를 엮을 수 있다.
+<h1><a href="index.html">WEB</a></h1>
+<ol>
+<li> <a href="1.html">HTML</a></li>
+<li> <a href="2.html">CSS</a></li>
+<li> <a href="3.html">JavaScript</a></li>
+</ol>
+<h2 style=margin-top:45px;>생활코딩 web1-16. 원시웹</h2>
+<p>웹의역사
+<br> internet vs web
+<br> 인터넷 안에 웹 외에 이메일 같은 다른것들이 존재
+<br>1960년 인터넷 등장
+<br>각각의 통신장치들이 일종의 전화국→ 하나가 사라져도 나머지들이 그 역할을 수행함, 거대한 인프라
+<br>1990년 웹 등장
+</p>
+<h2 style=margin-top: 45px;>생활코딩 web1-17. 인터넷을 여는 열쇠: 서버와 클라이언트</h2>
+<br> web browser  web server
+<br> client  → request      server
+<br>          respond←
+
+<ol>
+  <li>웹호스팅</li>
+  <li>웹서빙</li>
+</ol>
+웹호스팅을 이용하여 간편하게 하고 웹서버로 원리를 파악해보는 방향성 추천
+<h2 style=margin-top: 45px> 생활코딩 web1-18. 웹호스팅: github page</h2>
+<p>
+  깃허브 계정생성, (repository)저장소 생성
+  <br>우리의 소스코드를 깃허브 닷컴에 업로드 해야함.
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=MN1g0490WAg&list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb&index=18" target="_blank">생활코딩 깃허브 강의</a></li>
+      <li><a href="https://github.com/byeoldarae/byeoldarae.github.io/upload/main" target="_blank">소연이 깃허브 업로드하는곳</a>
+          <br>※한 프로젝트에 해당하는 페이지들, 사진들 모두 한세트로 업로드 할것.</li>
+    </ul>
+</p>
+<p>
+<h5>github pages</h5>
+</p>settings-> 사이드바에 있는 pages->github pages-> branch main으로 설정-> save-> 동일한 페이지를 탭을 하나 더 띄운다-> 우측 상단에 actions 클릭->reload하면 파일이 업로드 되는 과정을 볼 수 있다.
+<br>업로드한 파일 수정시
+<br>다시 깃허브 메인-> add file-> upload files-> 새로 저장한 웹사이트를 구성하는 파일들을 넣고, 설명 작성후 업로드-> actions 가면 업로드 되는 과정들이 보이고 다 되면 확인가능.
+<h2 style=margin-top:45px;> 생활코딩 web1-19. 웹서버 운영하기</h2>
+<p>
+웹서버의 종류는 다양 ex) Apache, IIS, Nginx, web server for chrome
+<br><a href="https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related" target="_blank" title="크롬 기반 웹서버">web server for chrome</a>
+<br> 200 ok! 모양 클릭, choose folder로 폴더선택해주고, web server started
+<br> 생성된 url 뒤에 /index.html 처럼 파일명 입력해주면 생성한 홈페이지가 열린다.
+<br><a href="http://127.0.0.1:8887/index.html" target="_blank"><u>/index.html</u></a>
+<br> http://127.0.0.1:8887/index.html
+<br> http: hyper text(웹페이지) transfer(전송하다) protocol(통신규칙): 웹페이지를 전송하기 위한 통신규칙
+<br>127.0.0.1 : internet Protocol Address, ip address :컴퓨터와 컴퓨터가 통신하기 위한 주소체계
+<br>위 주소는 본인 컴퓨터 주소를 의미
+<br>8887 은 port라는 개념
+</p>
+<h2 style=margin-top: 45px;>생활코딩 web1-19.1.1. 웹서버 설치 </h2>
+bitnami 라는 프로그램을 이용해서 aphache 설치함.
+<h2 style=margin-top: 45px>web1-19.1.2. 웹서버와 http(윈도우)</h2>
+<p>서버를 통해서 홈페이지를 열은것과, 파일 형태로 열은것은 주소가 다름, 출력되는 결과값은 같으나, 유의미한 차이점을 가지고 있음
+<br>http://127.0.0.1:8887/index.html
+<br>file:///C:/Bitnami/wampstack-8.1.6-0/apache2/htdocs/index.html
+</p>
+<h2 style=margin-top:45px;>web1-19.1.3. 웹서버와 웹브라우저의 통신 (윈도우)</h2>
+<p>
+<br>통신을 위해서는 ip주소가 필요
+<br>네트워크 설정→ 속성→ ipv4 주소가 현재 컴퓨터 ip주소
+</p>
+<h2 style=margin-top: 45px;>web1-20. 수업을 마치며 1/3</h2>
+긍정적인마음, 부정적인마음 모두 공부, 실력향상에 도움이된다.
+긍정적인 마음에 기대어 공부하자
+<h2 style=margin-top: 45px;>web1-21. 수업을 마치며 3/3</h2>
+<input type="checkbox">: input type="checkbox"
+<h2 style=margin-top: 45px;>web1-23. 수업을 마치며 2/3</h2>
+<p>
+<ol>
+  <li>css: 웹페이지를 아름답게 만들고싶다(웹디자이너, 웹퍼블리셔) :WEb-2 css</li>
+  <li>JavaScript: 사용자와 상호작용하는 웹페이지 (웹프론트엔지니어, 웹인터랙티브 디자이너): WEB-2 자바스크립트</li>
+  <li>back end: 생산성을 올림(php, jsp, Node.js, 익스프레스, 파이썬, 장고, 루비의 루비 온 레일즈, asp의 닷넷) :WEB-2 php, WEB-2 JSP</li>
+  <li>광고: 광고수익을 얻음: WEB-2 광고수업</li>
+</ol>
+</p>
+<h2 style=margin-top: 45px;>web1 부록-코드의 힘: 동영상 삽입</h2>
+동영상의 합성: 유튜브 공유하기→퍼가기→i frame으로 시작하는 코드를 복사, 붙여넣기하면 동영상을 삽일할 수 있다.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YbVuqWD12Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</P>
+<h2 style=margin-top: 45px;>web1 부록-코드의 힘: 댓글기능 추가</h2>
+댓글기능의 구현은 html만으로는 불가능, 백엔드 기술들이 필요함.
+<br>(php, jsp, 파이썬의 장고 등)
+<ul>
+  <li>스팸차단기능</li>
+  <li>이미지 추가기능</li>
+  <li>다른 SNS와 연동하는 기능</li>
+</ul>
+<a href="https://disqus.com/" target=_blank>disqus</a>,livere 이용가능
+<h4>disqus를 이용해서 댓글달기</h4>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-xz2hguziml.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<h2 style=margin-top:45px;>web1 부록-코드의 힘: 채팅기능 추가</h2>
+<a href="twak" target=_blank title=채팅기능추가>twak</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
